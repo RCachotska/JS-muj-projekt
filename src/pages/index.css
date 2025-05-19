@@ -1,8 +1,15 @@
+
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+  background-color: pink;
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  text-align: center;
+
 }
 
 .logo {
@@ -10,4 +17,95 @@ header {
   height: 10rem;
   background-image: url(../img/rocket.svg);
   background-size: contain;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto 1em;
+  border: 2px solid hotpink;
+}
+
+
+
+.nadpis {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.odkazy {
+  list-style-type: none;
+  padding: 0;
+}
+
+.odkazy li {
+  margin: 0.5em 0;
+}
+
+.odkazy a {
+  color: deeppink;
+  text-decoration: none;
+}
+
+.hlavni-obsah {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  max-width: 800px;
+  text-align: center;
+}
+
+.uvodni-text {
+  color: palevioletred;
+  font-size: 1.2em;
+}
+
+.plysaci-obal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plysak-kontejner {
+  border: 1px solid pink;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.plysak-obrazek {
+  max-width: 100px;
+  height: auto;
+}
+
+.plysak-jmeno {
+  color: hotpink;
+  display: block;
+  margin: 0.5em 0;
+}
+
+.plysak-popis {
+  color: palevioletred;
+}
+
+.paticka {
+  background-color: lightpink;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.paticka-text {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.hlavni-kontejner {
+  font-family: cursive;
+  background-color: lavenderblush;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
